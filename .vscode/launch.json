@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservgradecurricularprofApplication<microservgradecurricularprof>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.edu.univille.microservgradecurricularprof.MicroservgradecurricularprofApplication",
+            "projectName": "microservgradecurricularprof",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

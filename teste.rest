@@ -1,0 +1,21 @@
+GET http://localhost:8080/api/v1/gradecurricularprof
+GET http://localhost:8080/api/v1/gradecurricularprof/580c1134-0409-46e9-99a5-887b8e90636f
+### Inserir um novo gradecurricularprof
+POST http://localhost:8080/api/v1/gradecurricularprof
+Content-Type: application/json
+
+{
+  "nome": "Waltinho"
+}
+
+### Atualizar o  Carro
+PUT http://localhost:8080/api/v1/gradecurricularprof/580c1134-0409-46e9-99a5-887b8e90636f
+Content-Type: application/json
+
+{
+  "nome": "Waltinho-Foquinha"
+}
+
+### Remover o Carro
+DELETE  http://localhost:8080/api/v1/gradecurricularprof/580c1134-0409-46e9-99a5-887b8e90636f
+Content-Type: application/json
